@@ -1,10 +1,13 @@
+body {
+	padding-bottom: 50px;
+}
+
 .info-block {
 	margin-top: 8%;
 }
 
 .post-container {
 	width: 70%;
-	padding-bottom: 50px;
 }
 
 .header {
@@ -19,4 +22,14 @@ a.text-muted {
 
 a.text-muted:hover {
 	color: #999999;
+}
+
+.blog-index li {
+    list-style-type: none;
+	line-height: 50px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-index ul {
+	padding: 0px;
 }

@@ -22,7 +22,7 @@ title: Pedro Matiello
     </div>
   </div>
 
-  <div id="blog-index">
+  <div class="blog-index">
     <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -30,5 +30,5 @@ title: Pedro Matiello
     </ul>
   </div>
 
-  <a href="/rss.xml">RSS feed</a>.
+  <a href="/rss.xml" class="text-muted"><span class="label label-default">RSS feed</span></a>
 </div>
