@@ -7,5 +7,5 @@ author :
   name : Pedro Matiello
   email: pedro@pmatiello.me
 
-production_url: http://www.pmatiello.me
+production_url: http://www.pmatiello.me/
 permalink: /:year/:month/:title.html
