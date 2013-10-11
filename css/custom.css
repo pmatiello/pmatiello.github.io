@@ -1,7 +1,22 @@
-body {
-	background-color: #eee;
-}
-
 .info-block {
 	margin-top: 8%;
+}
+
+.post-container {
+	width: 70%;
+	padding-bottom: 50px;
+}
+
+.header {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+a.text-muted {
+	text-decoration: none;
+}
+
+a.text-muted:hover {
+	color: #999999;
 }
