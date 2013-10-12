@@ -9,6 +9,10 @@ pre {
 	font-size: 16px;
 }
 
+p, code, pre {
+	line-height: 1.6666666667;
+}
+
 .profile-summary {
 	background-color: #fdfdfd;
 	padding: 0px !important;
@@ -55,7 +59,6 @@ a.text-muted:hover {
 	margin-bottom: 20px;
 }
 
-code,
-pre {
+code, pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
