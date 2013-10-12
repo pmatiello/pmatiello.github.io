@@ -1,12 +1,12 @@
 body {
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom: 50px;
 	background-color: #fdfdfd;
 }
 
 .profile-summary {
 	background-color: #fdfdfd;
-	padding: 0px;
+	padding: 0px !important;
 }
 
 .post-container {
