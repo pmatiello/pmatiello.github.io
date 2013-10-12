@@ -7,7 +7,7 @@ layout: nil
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.production_url }}</link>
-    <atom:link href="http://example.com/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.production_url }}rss.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.title }}</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -16,10 +16,10 @@ layout: nil
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://example.com{{ post.url }}</link>
+      <link>{{ site.production_url }}{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>you@example.com (Your Name)</author>
-      <guid>http://example.com{{ post.id }}</guid>
+      <author>{{ site.author.email }} ({{ site.author.name }})</author>
+      <guid>{{ site.production_url }}{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
