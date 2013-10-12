@@ -1,9 +1,12 @@
 body {
+	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: #fdfdfd;
 }
 
-.info-block {
-	background-color: white;
+.profile-summary {
+	background-color: #fdfdfd;
+	padding: 0px;
 }
 
 .post-container {
@@ -32,4 +35,11 @@ a.text-muted:hover {
 
 .blog-index ul {
 	padding: 0px;
+}
+
+.links {
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 20px;
 }
