@@ -54,3 +54,8 @@ a.text-muted:hover {
 	padding: 10px 0px 10px 0px;
 	margin-bottom: 20px;
 }
+
+code,
+pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
