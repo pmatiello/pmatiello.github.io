@@ -15,7 +15,13 @@ pre {
 }
 
 .post-container {
-	width: 75%;
+	width: 70%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.post-container {
+		width: 100%;
+	}
 }
 
 .header {
