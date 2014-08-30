@@ -132,7 +132,7 @@ This definition has a very straightforward translation to Ruby:
 
 {% highlight ruby %}
 def fibonacci(n)
-  n &lt;= 1 ? n : fibonacci(n-1) + fibonacci(n-2)
+  n <= 1 ? n : fibonacci(n-1) + fibonacci(n-2)
 end
 {% endhighlight %}
 
@@ -156,7 +156,7 @@ Here, we have a number of repeated calls. This isn't so bad for `n` = 5, but thi
 {% highlight ruby %}
 FIBONACCI_CACHE = {}
 def memoized_fibonacci(n)
-  FIBONACCI_CACHE[n] ||= (n &lt;= 1 ? n : memoized_fibonacci(n-1) + memoized_fibonacci(n-2))
+  FIBONACCI_CACHE[n] ||= (n <= 1 ? n : memoized_fibonacci(n-1) + memoized_fibonacci(n-2))
 end
 {% endhighlight %}
 
@@ -177,7 +177,7 @@ Most of the time, in order to make some code run faster, we also make it uglier.
 {% highlight ruby %}
 Benchmark.bm do |x|
   x.report "to_proc" do
-    (1..100000000).each &amp;:to_s
+    (1..100000000).each &:to_s
   end
   x.report "block" do
     (1..100000000).each { |n| n.to_s }
