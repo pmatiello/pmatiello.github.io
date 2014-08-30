@@ -1,6 +1,6 @@
 name: Pedro Matiello
 markdown: redcarpet
-highlights: pygments
+highlighter: pygments
 
 title : Pedro Matiello
 author :
