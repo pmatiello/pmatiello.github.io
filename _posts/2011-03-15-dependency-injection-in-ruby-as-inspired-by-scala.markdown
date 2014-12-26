@@ -7,7 +7,7 @@ categories: dependency-injection ruby scala
 
 A recent <a href="https://groups.google.com/d/topic/growing-object-oriented-software/7mVYbj1ZPzw/discussion">discussion</a> in the <a href="http://www.growing-object-oriented-software.com/">GOOS</a>' group has lead me to consider different ways to compose objects in Ruby. Specifically, as module inclusion seems to be the favored approach for adding stuff to classes in Ruby, I've became interested in finding a more flexible idiom for this.
 
-The objective, therefore, is to define an instance variable in a module and be able to have it injected in instances of some class. Of course, as a Ruby noob, I'm forced to turn to other languages for inspiration. The solution in Scala, presented ahead, is kind of intuitive (I guess it can be considered a variation of the <a href="http://jonasboner.com/2008/10/06/real-world-scala-dependency-injection-di.html">Cake pattern</a>).
+The objective, therefore, is to define an instance variable in a module and be able to have it injected in instances of some class. Since I'm not that familiar with Ruby yet, I'm forced to turn to other languages for inspiration. A possible solution in Scala, presented below, is kind of intuitive.
 
 Let's start defining a simple trait `Lightsource`.
 
@@ -132,4 +132,4 @@ warmRoom = Class.new(Room) do
 end.new
 {% endhighlight %}
 
-Now, I'm suppose that this approach is not really within Ruby's orthodoxy, but I found it interesting nevertheless. Also, it surprised me that the Scala version is both cleaner and smaller than the Ruby version, while still providing the safety advantages of the static typing. Perhaps someone more skilled in Ruby might improve upon this.
+Now, I'm suppose that this approach is not really within Ruby's orthodoxy, but I found it interesting nevertheless. Also, it surprised me that the Scala version is both cleaner and smaller than the Ruby version, while still providing the safety advantages of the static typing.
