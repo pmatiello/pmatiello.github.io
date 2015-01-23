@@ -59,6 +59,10 @@ a.text-muted:hover {
 	margin-bottom: 20px;
 }
 
+.category-labels {
+	float: right;
+}
+
 code, pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
