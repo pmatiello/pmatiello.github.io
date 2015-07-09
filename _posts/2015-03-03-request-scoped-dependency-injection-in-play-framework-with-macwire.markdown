@@ -5,6 +5,8 @@ date:   2015-03-03 09:00:00
 categories: scala playframework dependency-injection macwire
 ---
 
+> **Update (09 Jul 2015):** This post was written for Play 2.3.x. Since [version 2.4.0](https://playframework.com/documentation/2.4.x/Highlights24), [dependency injection](https://playframework.com/documentation/2.4.x/ScalaDependencyInjection) is supported out of the box in Play through [Guice](https://github.com/google/guice). Also, changes in routing at this version of the framework break the approach described here.
+
 Controllers in [Play Framework](https://www.playframework.com) are usually defined as singleton objects. In fact, Play's documentation defines a controller as [a singleton object that generates Action values](https://www.playframework.com/documentation/2.3.x/ScalaActions) and provides an example like the one below:
 
 {% highlight scala %}
