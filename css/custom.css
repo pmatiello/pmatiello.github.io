@@ -22,8 +22,21 @@ p, code, pre {
 	width: 70%;
 }
 
+.update-container {
+	width: 70%;
+	font-size: 0.5em;
+}
+
+.update {
+	font-size: 4em;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	.post-container {
+		width: 100%;
+	}
+	
+	.update-container {
 		width: 100%;
 	}
 }

@@ -9,3 +9,7 @@ author :
 
 production_url: http://www.pmatiello.me/
 permalink: /:year/:month/:title.html
+
+collections:
+  updates:
+    output: true
