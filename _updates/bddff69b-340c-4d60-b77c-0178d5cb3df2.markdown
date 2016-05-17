@@ -1,7 +1,0 @@
----
-layout: update
-title:  A test with a title.
-date:   2016-05-17 19:42:01 -0300
----
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel felis elementum, pretium nisl vitae, tincidunt sem. Nulla quis est erat. Donec gravida tellus ut mi tristique dictum. Nam rutrum diam sit amet tristique blandit. Fusce ut lectus nec lectus elementum dapibus. Integer dignissim eget ipsum in ultricies. Praesent facilisis efficitur aliquam. Pellentesque porttitor turpis at ornare feugiat. Curabitur at arcu a elit aliquam bibendum et posuere dolor. Phasellus at urna nisl. Etiam eget augue purus. Suspendisse congue quam ac urna fermentum, et auctor purus pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non cursus metus, at consectetur dui. Curabitur elit nisi, efficitur eget mauris sit amet, vulputate malesuada dolor.

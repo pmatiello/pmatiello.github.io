@@ -1,7 +1,0 @@
----
-layout: update
-title:
-date:   2016-05-16 20:30:00 -0300
----
-
-Playing with [POSSE](https://indiewebcamp.com/POSSE).
