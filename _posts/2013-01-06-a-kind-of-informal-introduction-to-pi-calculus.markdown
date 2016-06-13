@@ -3,6 +3,7 @@ layout: post
 title:  "A Kind of Informal Introduction to π-Calculus"
 date:   2013-01-06 12:00:00
 categories: pi-calculus
+twitter_card: /img/example-client-server-printer.png
 ---
 
 The [π-Calculus](http://en.wikipedia.org/wiki/Π-calculus) is one of many approaches to concurrent computation by the means of formal modeling. Its purpose is to enable us to reason about concurrent processes in a disciplined fashion by manipulating expressions through formally defined algebraic rules.
