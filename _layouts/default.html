@@ -14,13 +14,13 @@
 
     <link rel="icon" type="image/png" href="/favicon.png" />
 
-    {% if page.twitter_card %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.author.twitter }}">
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
-    <meta name="twitter:image" content="{{ site.production_url }}{{ page.twitter_card }}">
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ site.production_url }}{{ page.image }}">
     {% endif %}
   </head>
   <body>
