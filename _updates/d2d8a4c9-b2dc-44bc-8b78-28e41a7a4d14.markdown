@@ -1,7 +1,0 @@
----
-layout: update
-title:
-date:   2016-06-14 22:35:41 -0300
----
-
-A new update for testing the updates feed.
