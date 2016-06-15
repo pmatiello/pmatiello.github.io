@@ -1,27 +1,29 @@
 ---
 ---
 
-<?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.title }} — Updates</title>
-    <link>{{ site.production_url }}</link>
-    <atom:link href="{{ site.production_url }}/updates.xml" rel="self" type="application/rss+xml" />
-    <description>{{ site.title }}</description>
-    <language>en-us</language>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <link href="{{ site.production_url }}"/>
+    <link href="{{ site.production_url }}/feed.xml" rel="self"/>
+    <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+    <id>{{ site.production_url }}/</id>
+    <author>
+      <name>{{ site.author.name }}</name>
+      <email>{{ site.author.email }}</email>
+    </author>
 
     {% for update in site.updates %}
-    <item>
+    <entry>
       <title>{{ update.title }}</title>
-      <link>{{ site.production_url }}{{ update.url }}</link>
-      <pubDate>{{ update.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>{{ site.author.email }} ({{ site.author.name }})</author>
-      <guid>{{ site.production_url }}{{ update.id }}</guid>
-      <description>{{ update.content | xml_escape }}</description>
-    </item>
+      <link href="{{ site.production_url }}{{ update.url }}"/>
+      <updated>{{ update.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+      <id>{{ site.production_url }}{{ update.id }}</id>
+      <author>
+        <name>{{ site.author.name }}</name>
+        <email>{{ site.author.email }}</email>
+      </author>
+      <content type="html">{{ update.content | xml_escape }}</content>
+    </entry>
     {% endfor %}
-
-  </channel>
-</rss>
+</feed>
