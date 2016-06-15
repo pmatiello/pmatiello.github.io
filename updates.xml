@@ -3,7 +3,7 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ site.title }} — Updates</title>
+    <title>{{ site.title }} - Updates</title>
     <link href="{{ site.production_url }}"/>
     <link href="{{ site.production_url }}/feed.xml" rel="self"/>
     <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%S%z" }}</updated>
