@@ -12,6 +12,7 @@
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>
     </author>
+    <icon>{{ site.production_url }}/favicon.png</icon>
 
     {% for post in site.posts %}
     <entry>
