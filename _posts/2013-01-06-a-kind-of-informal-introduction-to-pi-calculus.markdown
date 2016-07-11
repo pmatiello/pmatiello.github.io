@@ -28,7 +28,7 @@ Now that we have actions, we can already build some agents:
 - The **Nil**, empty agent *0*.
 - The **Prefix** *α.P* that executes the action *α* and then continues as the agent *P*.
 - The **Restriction** *(νx)P* that behaves as *P* having the name *x* in its local scope.
-- The **Parallel Composition** *P|Q* that behaves as agents *P* and *Q* executing in parallel.
+- The **Parallel Composition** *P\|Q* that behaves as agents *P* and *Q* executing in parallel.
 - The **Sum** *P+Q* that can behave either as *P* or *Q* (but not both).
 - The **Match** *[x=y].P* that behaves as *P* if *x* and *y* are the same name.
 - The **Mismatch** *[x≠y].P* that behaves as *P* if *x* and *y* are not the same name.
@@ -39,7 +39,7 @@ This may be a bit too abstract, but a small example will hopefully help: suppose
 
 To achieve our goal, *C* should send a name to *S* which, in turn, should forward it to *P*. We can write:
 
-*C|S|P*, where
+*C\|S\|P*, where
 
 - *C=(νa)y̅a*
 - *S=y(b).x̅b.S*
@@ -54,7 +54,7 @@ At this point, we're ready to talk about what makes the calculus really powerful
 
 We can illustrate this phenomenon by modifying our previous example. Previously, we had the client sending the message to the printer through the server. Now, we'll have the client to send the message directly to the printer through a channel provided by the server. We'll write:
 
-*C|S|P*, where
+*C\|S\|P*, where
 
 - *C=(νa)y(z).z̅a*
 - *S=y̅(x).S*
