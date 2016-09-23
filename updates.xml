@@ -4,22 +4,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.title }} - Updates</title>
-    <link href="{{ site.production_url }}"/>
-    <link href="{{ site.production_url }}/feed.xml" rel="self"/>
+    <link href="{{ site.domain }}"/>
+    <link href="{{ site.domain }}/feed.xml" rel="self"/>
     <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
-    <id>{{ site.production_url }}/</id>
+    <id>{{ site.domain }}/</id>
     <author>
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>
     </author>
-    <icon>{{ site.production_url }}/favicon.png</icon>
+    <icon>{{ site.domain }}/favicon.png</icon>
 
     {% for update in site.updates %}
     <entry>
       <title>{{ update.title }}</title>
-      <link href="{{ site.production_url }}{{ update.url }}"/>
+      <link href="{{ site.domain }}{{ update.url }}"/>
       <updated>{{ update.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
-      <id>{{ site.production_url }}{{ update.id }}</id>
+      <id>{{ site.domain }}{{ update.id }}</id>
       <author>
         <name>{{ site.author.name }}</name>
         <email>{{ site.author.email }}</email>
