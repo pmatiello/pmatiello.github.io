@@ -35,7 +35,7 @@ Now that we have actions, we can already build some agents:
 
 This may be a bit too abstract, but a small example will hopefully help: suppose we have a printer *P*, a server *S* and a client *C*. We would like to have a name sent by the client printed by the printer. We also define that the server is connected to the client by a channel *y* and to the printer by a channel *x*.
 
-![](/img/example-client-server-printer.png)
+![]({{ site.domain }}/img/example-client-server-printer.png)
 
 To achieve our goal, *C* should send a name to *S* which, in turn, should forward it to *P*. We can write:
 
