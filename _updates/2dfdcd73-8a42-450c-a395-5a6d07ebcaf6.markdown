@@ -5,4 +5,4 @@ date:   2016-11-07 23:43:06 -0200
 image: /img/IMG_0064.JPG
 ---
 
-![]({{ site.domain }}/img/IMG_0064.JPG)
+![Image]({{ site.domain }}/img/IMG_0064.JPG)
