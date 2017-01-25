@@ -1,5 +1,6 @@
 body {
 	background-color: #fdfdfd;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -19,6 +20,12 @@ p, code, pre {
 .profile-summary {
 	background-color: #fdfdfd;
 	padding: 0px !important;
+}
+
+.posts .post-date {
+	width: 12ex;
+	display: inline-block;
+	font-weight: lighter;
 }
 
 .container {
@@ -81,7 +88,7 @@ a.text-muted:hover {
 .blog-index li {
     list-style-type: none;
 	line-height: 50px;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 1px solid #efefef;
 }
 
 .blog-index ul {
