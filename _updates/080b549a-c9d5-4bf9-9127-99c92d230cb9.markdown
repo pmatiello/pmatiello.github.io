@@ -1,0 +1,11 @@
+---
+layout: update
+style:  photo
+title:
+date:   2017-06-17 13:20:11 -0300
+image:  /img/2017-06-17_10.23.14.jpg
+---
+
+![Image]({{ site.domain }}/img/2017-06-17_10.23.14.jpg)
+
+Lausanne Building. Higienópolis district, São Paulo.
