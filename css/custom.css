@@ -109,7 +109,3 @@ a.text-muted:hover {
 code, pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
-img {
-	cursor: pointer;
-}
