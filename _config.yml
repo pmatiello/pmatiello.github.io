@@ -6,7 +6,7 @@ author :
   email: pedro@pmatiello.me
   twitter: pmatiello
 
-domain: https://www.pmatiello.me
+domain: http://www.pmatiello.me
 permalink: /:year/:month/:title.html
 
 collections:
