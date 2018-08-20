@@ -5,7 +5,7 @@ date:   2012-03-23 12:00:00
 categories: interfaces python
 ---
 
-Python decorators are quite useful and interesting. I've already written about <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=240808">function decorators</a> in a <a href="http://pmatiello.blogspot.com/2010/08/in-which-i-give-my-own-half-baked_22.html">previous post</a> and <a href="http://www.python.org/dev/peps/pep-3129/">class decorators</a> are a worthy followup.
+Python decorators are quite useful and interesting. I've already written about <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=240808">function decorators</a> in a <a href="/2010/09/in-which-i-give-my-own-half-baked-workaround-to-the-lack-of-tail-call-optimization-in-python.html">previous post</a> and <a href="http://www.python.org/dev/peps/pep-3129/">class decorators</a> are a worthy followup.
 
 I order to illustrate this feature, we'll implement support for interface contracts for Python classes. In a language like Java, for instance, a contract can be declared this way:
 
