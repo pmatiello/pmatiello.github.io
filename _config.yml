@@ -12,3 +12,4 @@ permalink: /:year/:month/:title.html
 collections:
   updates:
     output: true
+    permalink: /:year/:month/:title.html
