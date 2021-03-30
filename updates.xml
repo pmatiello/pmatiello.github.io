@@ -5,7 +5,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.title }} - Updates</title>
     <link href="{{ site.domain }}"/>
-    <link href="{{ site.domain }}/feed.xml" rel="self"/>
+    <link href="{{ site.domain }}/updates.xml" rel="self"/>
     <updated>{{ site.time | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
     <id>{{ site.domain }}/</id>
     <author>
