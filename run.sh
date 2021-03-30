@@ -1,3 +1,3 @@
 #!/bin/bash
 
-jekyll serve --watch --config _config.yml,_devconfig.yml
+bundle exec jekyll serve --watch --config _config.yml,_devconfig.yml
