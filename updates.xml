@@ -14,7 +14,8 @@
     </author>
     <icon>{{ site.domain }}/favicon.png</icon>
 
-    {% for update in site.updates reversed %}
+    {% assign sorted_updates = site.updates | sort: 'date' %}
+    {% for update in sorted_updates reversed %}
     <entry>
       <title>{{ update.title }}</title>
       <link href="{{ site.domain }}{{ update.url }}"/>
