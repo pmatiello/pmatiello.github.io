@@ -1,7 +1,7 @@
 ---
 layout: update
 style:  photo
-title:
+title:  Praça Antônio Prado
 date:   2017-04-01 15:20:17 -0300
 image:  /img/2017-04-01_10.12.04.jpg
 ---
