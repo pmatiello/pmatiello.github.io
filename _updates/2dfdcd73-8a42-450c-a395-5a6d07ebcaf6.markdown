@@ -1,0 +1,8 @@
+---
+layout:    update
+title:     Removed post
+permalink: /updates/2dfdcd73-8a42-450c-a395-5a6d07ebcaf6
+date:      1970-01-01 00:00:00 -0000
+---
+
+Removed.
