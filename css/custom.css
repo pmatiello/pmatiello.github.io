@@ -4,10 +4,6 @@ body {
     font-size: 18px;
 }
 
-.photo {
-	background-color: #fdfdfd;
-}
-
 pre {
 	font-size: 16px;
 }
@@ -37,18 +33,6 @@ p, code, pre {
 
 .post-container img {
 	max-width: 100%;
-}
-
-.update-container {
-	width: 70%;
-}
-
-.update-container img {
-	max-width: 100%;
-}
-
-.update {
-	font-size: 1.2em;
 }
 
 @media only screen and (max-width : 640px) {

@@ -1,8 +1,0 @@
----
-layout:    update
-title:     Removed post
-permalink: /updates/10d96eed-c7a2-4e28-8642-cf5651f06300
-date:      2021-03-31 07:32:00 -0300
----
-
-Removed.
