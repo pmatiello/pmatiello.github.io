@@ -2,7 +2,7 @@
 layout:    update
 title:     Removed post
 permalink: /updates/080b549a-c9d5-4bf9-9127-99c92d230cb9
-date:      1970-01-01 00:00:00 -0000
+date:      2021-03-31 07:33:00 -0300
 ---
 
 Removed.
