@@ -5,8 +5,7 @@ body {
 }
 
 .photo {
-	background-color: #363636;
-	color: #ccc;
+	background-color: #fdfdfd;
 }
 
 pre {
@@ -49,7 +48,7 @@ p, code, pre {
 }
 
 .update {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 @media only screen and (max-width : 640px) {
