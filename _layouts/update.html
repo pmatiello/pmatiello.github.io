@@ -11,6 +11,6 @@ layout: default
   <div class="update">
     {{ content }}
   </div>
-  <p>At {{ page.date | date_to_rfc822 }}.</p>
+  <p>At {{ page.date | date_to_string }}.</p>
   <a href="/updates.xml" class="text-muted"><span class="label label-primary">Updates Feed</span></a>
 </div>
