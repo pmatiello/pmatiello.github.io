@@ -5,9 +5,12 @@ date:   2018-03-22 19:00:00
 categories: clojure mocking testing test-driven-design
 ---
 
-[`mockfn`](https://github.com/pmatiello/mockfn) is a library supporting mockist test-driven-development in Clojure. It is meant to be used alongside a regular testing framework such as `clojure.test`.
+[`me.pmatiello/mockfn`](https://github.com/pmatiello/mockfn) is a library
+supporting mockist test-driven-development in Clojure. It is meant to be used
+alongside a regular testing framework such as `clojure.test`.
 
-It provides two macros to be used in tests. The first, `providing`, replaces a function with a configured mock.
+It provides two macros to be used in tests. The first, `providing`, replaces a
+function with a configured mock.
 
 {% highlight clojure %}
 (testing "providing"
@@ -15,7 +18,8 @@ It provides two macros to be used in tests. The first, `providing`, replaces a f
     (is (= :result (one-fn)))))
 {% endhighlight %}
 
-The second macro, `verifying`, works similarly, but also defines an expectation for the number of times a call should be performed during the test.
+The second macro, `verifying`, works similarly, but also defines an expectation
+for the number of times a call should be performed during the test.
 
 {% highlight clojure %}
 (testing "verifying"
