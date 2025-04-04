@@ -33,4 +33,4 @@ Argument matchers are also supported:
 
 [Project page](https://github.com/pmatiello/mockfn)
 
-[Documentation](https://github.com/pmatiello/mockfn/blob/master/doc/documentation.md)
+[Documentation](https://github.com/pmatiello/mockfn/blob/master/README.md)
