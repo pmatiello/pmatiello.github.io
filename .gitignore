@@ -1,0 +1,15 @@
+# Hugo build directory (default output)
+/public/
+/resources/_gen/
+
+# Local cache and development directories
+/.hugo_build.lock
+/assets/.sass-cache/
+/.sass-cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/

@@ -1,0 +1,27 @@
+baseURL = 'https://www.pmatiello.me/'
+locale = 'en'
+title = 'Pedro Matiello'
+
+theme = ["github.com/lxndrblz/anatole"]
+
+[params]
+title = "Pedro Matiello"
+author = "Pedro Matiello"
+description = "Software Engineer. Actor model. Singer/songwriter. Talk show host."
+profilePicture = "profile.jpg"
+favicon = "favicons/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:pedro@pmatiello.me"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/pmatiello/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/pmatiello"
