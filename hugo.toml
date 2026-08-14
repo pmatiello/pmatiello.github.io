@@ -12,8 +12,6 @@ profilePicture = "profile.jpg"
 favicon = "favicons/"
 doNotLoadAnimations = true
 disableThemeSwitcher = true
-contentratio = 0.65
-disableTitleCapitalization = true
 disableArchiveTitleStyling = true
 
 [[params.socialIcons]]
