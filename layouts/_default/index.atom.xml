@@ -1,0 +1,20 @@
+{{ printf `<?xml version="1.0" encoding="utf-8" standalone="yes"?>` | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link href="{{ .Permalink }}" rel="self"/>
+    <link href="{{ .Site.BaseURL }}"/>
+    <updated>{{ now.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+    <id>{{ .Site.BaseURL }}</id>
+    {{ with .Site.Params.Author }}<author><name>{{ . }}</name></author>{{ end }}
+    <generator>Hugo -- gohugo.io</generator>
+    {{ range first 15 (where .Site.RegularPages "Section" "posts") }}
+    <entry>
+        <title>{{ .Title }}</title>
+        <link href="{{ .Permalink }}"/>
+        <id>{{ .Permalink }}</id>
+        <updated>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+        <published>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</published>
+        <content type="html">{{ .Content | html }}</content>
+    </entry>
+    {{ end }}
+</feed>

@@ -18,15 +18,36 @@ title = "Email"
 url = "mailto:pedro@pmatiello.me"
 
 [[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/pmatiello"
+
+[[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/pmatiello/"
 
 [[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/pmatiello"
+icon = "fas fa-rss"
+title = "Atom Feed"
+url = "/atom.xml"
 
 [markup]
 [markup.highlight]
 style = "monokailight"
+
+[mediaTypes]
+[mediaTypes."application/atom+xml"]
+suffixes = ["xml"]
+
+[outputFormats]
+[outputFormats.Atom]
+name = "Atom"
+mediaType = "application/atom+xml"
+baseName = "atom"
+isPlainText = false
+rel = "alternate"
+
+[outputs]
+# Configures the home page to output both standard HTML and your Atom feed
+home = ["HTML", "Atom"]
