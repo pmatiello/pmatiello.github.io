@@ -10,7 +10,11 @@ author = "Pedro Matiello"
 description = "Software Engineer. Actor model. Singer/songwriter. Talk show host."
 profilePicture = "profile.jpg"
 favicon = "favicons/"
+doNotLoadAnimations = true
 disableThemeSwitcher = true
+contentratio = 0.65
+disableTitleCapitalization = true
+disableArchiveTitleStyling = true
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
@@ -51,3 +55,17 @@ rel = "alternate"
 [outputs]
 # Configures the home page to output both standard HTML and your Atom feed
 home = ["HTML", "Atom"]
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/posts/"
