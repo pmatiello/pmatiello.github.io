@@ -10,6 +10,7 @@ author = "Pedro Matiello"
 description = "Software Engineer. Actor model. Singer/songwriter. Talk show host."
 profilePicture = "profile.jpg"
 favicon = "favicons/"
+disableThemeSwitcher = true
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
@@ -25,3 +26,7 @@ url = "https://www.linkedin.com/in/pmatiello/"
 icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/pmatiello"
+
+[markup]
+[markup.highlight]
+style = "monokailight"
