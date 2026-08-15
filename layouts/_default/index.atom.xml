@@ -7,7 +7,7 @@
     <id>{{ .Site.BaseURL }}</id>
     {{ with .Site.Params.Author }}<author><name>{{ . }}</name></author>{{ end }}
     <generator>Hugo -- gohugo.io</generator>
-    {{ range first 15 (where .Site.RegularPages "Section" "posts") }}
+    {{ range first 15 (where .Site.RegularPages "Section" "post") }}
     <entry>
         <title>{{ .Title }}</title>
         <link href="{{ .Permalink }}"/>
