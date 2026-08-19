@@ -32,7 +32,7 @@ url = "https://www.linkedin.com/in/pmatiello/"
 [[params.socialIcons]]
 icon = "fas fa-rss"
 title = "Atom Feed"
-url = "/atom.xml"
+url = "/feed.xml"
 
 [markup]
 [markup.highlight]
@@ -46,7 +46,7 @@ suffixes = ["xml"]
 [outputFormats.Atom]
 name = "Atom"
 mediaType = "application/atom+xml"
-baseName = "atom"
+baseName = "feed"
 isPlainText = false
 rel = "alternate"
 
